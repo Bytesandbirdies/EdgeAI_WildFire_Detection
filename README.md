@@ -1,2 +1,2 @@
 # EdgeAI_WildFire_Detection
-This Python code integrates YOLOv8n for object detection, IoT sensor fusion (temperature, gas sensors), and temporal smoothing on Jetson Nano. It processes real-time video, confirms detections using sensor thresholds, and applies a buffer to reduce false positives.
+This Python code integrates YOLOv8n for object detection, IoT sensor fusion (temperature, gas sensors), and temporal smoothing on Jetson Nano. It processes real-time video, confirms detections using sensor thresholds, and applies a buffer to reduce false positives. The code also generates real-time alerts using MQTT for IoT notifications and Twilio for SMS alerts whenever a wildfire is confirmed
